@@ -36,8 +36,8 @@ services:
         condition: service_healthy
     environment:
       SPRING_DATASOURCE_URL: jdbc:mysql://db:3306/dorofeiev_db_lab_4
-      SPRING_DATASOURCE_USERNAME: "root"
-      SPRING_DATASOURCE_PASSWORD: "0123456789"
+      SPRING_DATASOURCE_USERNAME: "vlad"
+      SPRING_DATASOURCE_PASSWORD: "pavlo?Osada228"
     ports:
       - 8090:8090
 
