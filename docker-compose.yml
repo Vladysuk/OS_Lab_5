@@ -47,7 +47,7 @@ services:
       - data-volume:/var/lib/mysql
     container_name: db
     environment:
-      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_ROOT_PASSWORD=0123456789
       - MYSQL_DATABASE=dorofeiev_db_lab_4
       - MYSQL_USER=vlad
       - MYSQL_PASSWORD=pavlo?Osada228
